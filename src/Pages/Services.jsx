@@ -1,7 +1,7 @@
 import React from "react";
 
 const Google = () =>{
-    return <h1>i am Services Pages </h1>
+    return <h1>I'M SERVICES PAGE</h1>
 };
 
 export default Google;

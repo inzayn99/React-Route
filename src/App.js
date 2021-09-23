@@ -5,10 +5,12 @@ import Contact from "./Pages/Contact";
 import Error from "./Pages/Error";
 import Home from "./Pages/Home";
 import Services from "./Pages/Services";
+import Menu from "./Pages/Menu";
 
 const App = () => {
 return (
   <>
+  <Menu/>
   <Switch>
   <Route exact path="/" component={Home} />
   <Route exact path="/contact" component={Contact} />

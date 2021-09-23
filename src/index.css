@@ -8,6 +8,20 @@ body {
 }
 
 code {
+  text-decoration: none;
+  text-decoration-color: red ;
+
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+a.active_class {
+  text-align: center;
+  text-decoration-line: none;
+  color: green;
+  border-bottom: 1px solid red;
+}
+
+
+
